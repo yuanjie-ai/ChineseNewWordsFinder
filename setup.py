@@ -12,7 +12,7 @@ with open("README.md", encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='pyTool',
+    name='newwords_finder',
     version='1.0.0',
     url='https://github.com/Jie-Yuan/ChineseNewWordsFinder',
     keywords=["DeepLearning", "nlp", "new words"],
