@@ -10,8 +10,8 @@ import jieba
 jieba.enable_parallel(4)
 jieba.lcut("分词测试")
 from tqdm import tqdm
-from trie import TrieNode
-from utils import get_stopwords, load_dictionary, Ngrams, save_model, load_model, get_module_path
+from .trie import TrieNode
+from .utils import get_stopwords, load_dictionary, Ngrams, save_model, load_model, get_module_path
 
 class NewWordsFinder(object):
 
