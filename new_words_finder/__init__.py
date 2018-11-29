@@ -6,4 +6,4 @@ __author__ = 'JieYuan'
 __mtime__ = '18-11-29'
 """
 
-from .new_words_finder import NewWordsFinder
+# from .new_words_finder import NewWordsFinder
